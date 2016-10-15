@@ -1,4 +1,6 @@
-
+body{
+    overflow: scroll;
+}
 #network_anslysis_new{
     position: relative;
 }
@@ -75,7 +77,7 @@
 #network_anslysis_new .container .panel{
     border: none;
 }
-.panel div {
+.panel .border-div {
     border: 1px solid rgb(157,169,208);
 }
 .right_header{
@@ -108,8 +110,8 @@
 }
 
 .right_header2{
-    height: 66px;
-    padding-top: 20px;
+    height: 50px;
+    padding-top: 12px;
     background: rgb(241,244,255);
 }
 .right_header2 a.xiaoqu-btn{
@@ -125,6 +127,112 @@
     border: 1px solid rgb(157,169,208);
     border-radius: 3px;
 }
+.panel .head-info{
+    height: 42px;
+    line-height: 42px;
+}
+.panel .head-info h3{
+    display: inline;
+    font-size: 16px;
+}
+.panel .requ-info{
+    /*height: 340px;*/
+}
+.panel .requ-info .icon-info {
+    position: absolute;
+    right: 20px;
+}
+.panel .requ-info h4{
+    font-size: 14px;
+    margin: 22px auto;
+    text-align: center;
+    color: #5e5f5f;
+}
+.panel .requ-info h4.h4-t2{
+    font-size: 28px;
+    color:#1e1985 ;
+}
+.panel .requ-info h4.m0{
+    display: inline-block;
+    margin: 0;
+}
+
+.panel div.w-50{
+    width: 49%;
+    border: none;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 22px;
+}
+
+.sekuai{
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border: 2px solid rgb(100,123,197);
+    margin:0 6px 0 12px;
+    background-color: #fff;
+}
+.icon-info{
+    background: url("../images/network_anslysis_new/info.png") no-repeat;
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    margin-left: 6px;
+    position: relative;
+    top: 10px;
+}
+
+.panel .opt{
+    border: none;
+}
+.icon-opt{
+    width: 41px;
+    height: 41px;
+    display: block;
+    position: absolute;
+    top: 53%;
+    left: 45%;
+}
+.icon-text{
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 46%;
+    font-size: 16px;
+    color: #5e5f5f;
+}
+.icon-text2{
+    top:48%;
+}
+.icon-opt1{
+    background: url("../images/network_anslysis_new/icon-opt1.png") no-repeat;
+}
+.icon-opt2{
+    background: url("../images/network_anslysis_new/icon-opt2.png") no-repeat;
+}
+.icon-opt3{
+    background: url("../images/network_anslysis_new/icon-opt3.png") no-repeat;
+}
+.icon-opt4{
+    background: url("../images/network_anslysis_new/icon-opt4.png") no-repeat;
+}
+.h200{
+    height: 200px;
+}
+.h400{
+    height: 400px;
+}
+.h500{
+    height: 500px;
+}
+
+
+
+
+
+
+
 .ml22{
     margin-left: 22px;
 }
@@ -175,8 +283,12 @@
 .border-t1{
     border-top:1px solid rgb(157,169,208);
 }
+
 .border-r1{
     border-right:1px solid rgb(157,169,208);
+}
+.head-info.border-b0{
+    border-bottom:none;
 }
 .border-b1{
     border-bottom:1px solid rgb(157,169,208);

@@ -8,6 +8,9 @@
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <script src="js/jquery.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
+  <script src="js/echarts.min.js"></script>
+  <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=0D518594d504c02b9271272ddca83c41"></script>
+  <script type="text/javascript" src="http://api.map.baidu.com/library/Heatmap/2.0/src/Heatmap_min.js"></script>
   <link rel="stylesheet" href="css/base.css">
   <link rel="stylesheet" href="css/index.css">
 </head>
@@ -19,21 +22,21 @@
         <i class="logo"></i>
       </li>
       <li class="list active">
-        <a href="#">
+        <a href="#" data-target="qjgl">
           <span class="left-line"></span>
           <i class="icon-common icon-quanjugailan"></i>
           <span>全局概览</span>
         </a>
       </li>
       <li class="list">
-        <a href="#">
+        <a href="#" data-target="wxap">
           <span class="left-line"></span>
           <i class="icon-common icon-wuxianap"></i>
           <span>无线AP</span>
         </a>
       </li>
       <li class="list">
-        <a href="#">
+        <a href="#" data-target="xsxw">
           <span class="left-line"></span>
           <i class="icon-common icon-xueshengxingwei"></i>
           <span>学生行为</span>
@@ -65,74 +68,24 @@
 
       </div>
     </div>
-    <div class="right_header2 border-t1 border-b1">
-      <a href="#" class="xiaoqu-btn ml22 active">
-        <span>全部</span>
-      </a>
-      <a href="#" class="xiaoqu-btn ">
-        <span>东校区</span>
-      </a>
-      <a href="#" class="xiaoqu-btn ">
-        <span>西校区</span>
-      </a>
+    <div>
+      <div class="right_header2 border-t1 border-b1">
+        <a href="#" class="xiaoqu-btn ml22 active">
+          <span>全部</span>
+        </a>
+        <a href="#" class="xiaoqu-btn ">
+          <span>东校区</span>
+        </a>
+        <a href="#" class="xiaoqu-btn ">
+          <span>西校区</span>
+        </a>
 
+      </div>
     </div>
+
     <div class="cb"></div>
     <div class="container">
-      <div class="panel panel-custom m10">
 
-        <div style="height: 500px;"></div>
-      </div>
-      <div class="row">
-        <div class="col-md-3 col-sm-12 p0 p10">
-          <div class="panel panel-custom">
-            <div style="height: 200px;">
-
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3 col-sm-12 p0 p10">
-          <div class="panel panel-custom">
-            <div style="height: 200px;"></div>
-          </div>
-        </div>
-        <div class="col-md-3 col-sm-12 p0 p10">
-          <div class="panel panel-custom">
-            <div style="height: 200px;"></div>
-          </div>
-        </div>
-        <div class="col-md-3 col-sm-12 p0 p10 p10">
-          <div class="panel panel-custom">
-            <div style="height: 200px;"></div>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-
-        <div class="col-md-6 col-sm-12 p0 p10">
-          <div class="panel panel-custom">
-            <div style="height: 200px;"></div>
-          </div>
-        </div>
-        <div class="col-md-6 col-sm-12 p0 p10">
-          <div class="panel panel-custom">
-            <div style="height: 200px;"></div>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-
-        <div class="col-md-6 col-sm-12 p0 p10">
-          <div class="panel panel-custom">
-            <div style="height: 200px;"></div>
-          </div>
-        </div>
-        <div class="col-md-6 col-sm-12 p0 p10">
-          <div class="panel panel-custom">
-            <div style="height: 200px;"></div>
-          </div>
-        </div>
-      </div>
     </div>
     <div class="right_footer">
       <span>Copyright@2013</span>

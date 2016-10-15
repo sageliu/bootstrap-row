@@ -37,7 +37,21 @@ $(".xiaoqu-btn").on('click',function () {
   $(this).siblings().removeClass('active');
   $(this).addClass('active');
 });
-$("#left_nav .list").on('click',function () {
+
+var $changeHtmlBtn=$('#left_nav .list');
+$changeHtmlBtn.on('click',function () {
   $(this).siblings().removeClass('active');
   $(this).addClass('active');
-})
+
+  changeHtml();
+
+});
+
+
+$(function () {
+  changeHtml();
+});
+
+function changeHtml() {
+  $('.container').load($changeHtmlBtn.filter('.active').children('a').data('target')+'.html');
+}
